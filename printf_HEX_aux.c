@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * printf_HEX - prints an hexadecimal number.
- * @val: arguments.
- * Return: counter.
+ * printf_HEX_aux - prints an hexadecimal number.
+ * @num: number to printed
+ * Return: counter on success
  */
-int printf_HEX(va_list val)
+
+int printf_HEX_aux(unsigned int num)
 {
 	int i;
 	int *array;
 	int counter = 0;
-	unsigned int num = va_arg(val, unsigned int);
 	unsigned int temp = num;
 
 	while (num / 16 != 0)

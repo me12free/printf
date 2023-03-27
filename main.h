@@ -10,5 +10,6 @@
 int _putchar(char c);
 int printf_37(void);
 int printf_HEX(va_list val);
+int printf_HEX_aux(unsigned int num);
 
 #endif
