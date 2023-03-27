@@ -13,6 +13,7 @@ int printf_HEX(va_list val);
 int printf_HEX_aux(unsigned int num);
 int printf_bin(va_list val);
 int printf_char(va_list val);
+int printf_exclusive_string(va_list val);
 
 
 #endif
