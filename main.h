@@ -9,5 +9,6 @@
 
 int _putchar(char c);
 int printf_37(void);
+int printf_HEX(va_list val);
 
 #endif
