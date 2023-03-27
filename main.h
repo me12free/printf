@@ -19,6 +19,7 @@ int printf_hex_aux(unsigned long int num);
 int printf_oct(va_list val);
 int printf_int(va_list args);
 int printf_dec(va_list args);
+int printf_pointer(va_list val);
 
 
 #endif
