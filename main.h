@@ -41,5 +41,7 @@ int printf_srev(va_list args);
 int printf_string(va_list val);
 int printf_unsigned(va_list args);
 int _printf(const char *format, ...);
+int _strlen(char *s);
+int _strlenc(const char *s);
 
 #endif
